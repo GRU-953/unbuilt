@@ -1,5 +1,6 @@
 {
   "name": "unbuilt",
+  "description": "Home of the unbuilt plugin — a single-file ledger of the features, approaches, and scope a project deliberately chose not to build.",
   "owner": {
     "name": "Aninda Sundar Howlader",
     "email": "aninda.sh15@gmail.com"
