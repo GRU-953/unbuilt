@@ -1,0 +1,13 @@
+{
+  "name": "unbuilt",
+  "version": "0.1.0",
+  "description": "A ledger of what you deliberately chose not to build — so your AI coding assistant stops re-adding cut features and re-proposing ruled-out approaches.",
+  "license": "MIT",
+  "author": {
+    "name": "Aninda Sundar Howlader",
+    "email": "aninda.sh15@gmail.com"
+  },
+  "homepage": "https://github.com/GRU-953/unbuilt",
+  "repository": "https://github.com/GRU-953/unbuilt",
+  "keywords": ["decisions", "scope", "yagni", "memory", "skills", "claude-code"]
+}

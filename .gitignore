@@ -1,0 +1,6 @@
+.DS_Store
+
+# Local build notes — not part of the plugin
+PROGRESS.md
+DESIGN.md
+scratch/

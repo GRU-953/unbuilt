@@ -1,0 +1,14 @@
+{
+  "name": "unbuilt",
+  "owner": {
+    "name": "Aninda Sundar Howlader",
+    "email": "aninda.sh15@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "unbuilt",
+      "source": "./",
+      "description": "A ledger of what you deliberately chose not to build."
+    }
+  ]
+}
