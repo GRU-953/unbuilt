@@ -2,6 +2,8 @@
 
 **A ledger of what you deliberately chose *not* to build — so your AI coding assistant stops re-adding cut features and re-proposing ruled-out approaches.**
 
+![Recording "no billing yet" with /unbuilt:record, then — weeks later, in a fresh session — the check skill flagging an attempt to add Stripe billing as something that was cut on purpose.](demo/demo.gif)
+
 When you work with an AI coding assistant over more than one sitting, it has no
 memory of your *restraint*. You delete a half-built feature to keep things
 simple — a week later it helpfully adds it back. You rule out an approach for
@@ -67,6 +69,15 @@ the word appears on both sides of the `@`.
 You only do this once. To confirm it worked, type `/unbuilt:` and you should see
 the `record` and `check` commands offered.
 
+### Other ways to install
+
+- **From a release archive** (offline, or to pin a version): download
+  `unbuilt.zip` from the [latest release](https://github.com/GRU-953/unbuilt/releases/latest)
+  and run `claude --plugin-dir ./unbuilt.zip` (Claude Code v2.1.128+). You can
+  also point Claude Code straight at the URL with `claude --plugin-url <zip-url>`.
+- **Try it without installing:** clone the repo and run
+  `claude --plugin-dir /path/to/unbuilt`.
+
 ---
 
 ## How to use it
@@ -106,6 +117,8 @@ Plain markdown. Newest entries at the bottom. Each entry has four parts:
 
 Because it's just a file in your project, it travels with your project's history
 and shows up in code review like any other change.
+
+See [`examples/`](examples/) for sample ledgers from a web API and a CLI tool.
 
 ---
 
